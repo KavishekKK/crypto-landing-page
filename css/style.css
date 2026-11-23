@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 16px;
+}
+body
+{
+    font-family: "Inter", sans-serif;
+}
+
+:root
+{
+    /*Text Colors*/
+    --text-primary: #000000;
+    --text-secondary: #FFFFFF;
+
+    /*Background Colors*/
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #000000;
+
+    /*Accent Colors*/
+    --accent-primary: #23292F;
+    --accent-hover: #;
+
+    /*Border*/
+    --border-primary: #F2F2F2;
+
+    /*Border Radius*/
+    --radius-sm: 4px;
+
+    /*Z-Index*/
+    --z-navbar: 400;
+}
+
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
