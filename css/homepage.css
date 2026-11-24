@@ -107,3 +107,79 @@
     color: var(--text-secondary);
     font-weight: 300;
 }
+
+.features-container
+{
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-primary);
+    padding: 0em 10em;
+}
+.features-header
+{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.features-header h2
+{
+    font-size: 3rem;
+    color: var(--accent-primary);
+    font-family: "Space Grotesk", sans-serif;
+    text-align: center;
+}
+.features-header p
+{
+    margin-top: 0.5em;
+    font-size: 1.2rem;
+    color: var(--accent-primary);
+}
+.features-main
+{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+}
+.features-card
+{
+    width: 23rem;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.features-card:hover
+{
+    box-shadow: var(--shadow-hover);
+}
+.features-card svg
+{
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.7em;
+    border: 1px solid var(--accent-primary);
+    background-color: var(--accent-primary);
+    border-radius: var(--radius-md);
+}
+.features-card h3
+{
+    margin-top: 1em;
+    color: var(--accent-primary);
+    font-size: 1.5rem;
+    font-family: "Space Grotesk", sans-serif;
+}
+.features-card p
+{
+    margin-top: 1.5em;
+    text-align: center;
+    color: var(--accent-primary);
+}
